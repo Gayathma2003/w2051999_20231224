@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-image: url("assets/music.jpg");
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 60%;
+  padding: 5px;
+
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.management-buttons{
+  border: 1px solid #ccc;
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.management-button{
+  background-color: rosybrown;
+  color: white;
+}
